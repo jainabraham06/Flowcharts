@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" modified="2023-10-06T10:43:23.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="6b7S8jGpclN2KxwovLJn" version="21.6.9" type="github">
+  <diagram name="Page-1" id="W9g8ZL2G6DjQNR9luLZu">
+    <mxGraphModel dx="2253" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VFZLexwzBfUBSj6KJXx8-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="350" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="" tooltip="" id="VFZLexwzBfUBSj6KJXx8-9">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VFZLexwzBfUBSj6KJXx8-7" target="VFZLexwzBfUBSj6KJXx8-8" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <object label="&lt;pre&gt;Loop for no of files&lt;/pre&gt;" id="VFZLexwzBfUBSj6KJXx8-14">
+          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;rounded=1;glass=0;shadow=0;arcSize=37;" parent="1" vertex="1">
+            <mxGeometry x="510" y="167.5" width="300" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-7" value="No of Files" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="350" y="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VFZLexwzBfUBSj6KJXx8-8" target="VFZLexwzBfUBSj6KJXx8-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="" id="VFZLexwzBfUBSj6KJXx8-18">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VFZLexwzBfUBSj6KJXx8-8" target="VFZLexwzBfUBSj6KJXx8-17" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-8" value="Internal/External" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="340" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VFZLexwzBfUBSj6KJXx8-10" target="VFZLexwzBfUBSj6KJXx8-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VFZLexwzBfUBSj6KJXx8-10" target="VFZLexwzBfUBSj6KJXx8-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-10" value="Get Upload Token" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="540" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VFZLexwzBfUBSj6KJXx8-12" target="VFZLexwzBfUBSj6KJXx8-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-12" value="Upload File" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="540" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-15" value="Copy the fileId and save it&amp;nbsp; the csv file." style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="680" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VFZLexwzBfUBSj6KJXx8-17" target="VFZLexwzBfUBSj6KJXx8-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-28" value="&lt;pre style=&quot;&quot;&gt;Loop for No of files&lt;/pre&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=none;arcSize=36;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="167.5" width="295" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VFZLexwzBfUBSj6KJXx8-17" target="VFZLexwzBfUBSj6KJXx8-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-17" value="Upload File" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-23" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="350" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="VFZLexwzBfUBSj6KJXx8-14" target="VFZLexwzBfUBSj6KJXx8-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFZLexwzBfUBSj6KJXx8-29" value="Copy the fileId and save it&amp;nbsp; the csv file." style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3p6GFlg6W_7p21_wMGBN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.058;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VFZLexwzBfUBSj6KJXx8-15" target="VFZLexwzBfUBSj6KJXx8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
